@@ -1,0 +1,174 @@
+a {
+    text-decoration: none;
+}
+.menu {
+    background-color: #45015d;
+    color: white;
+    width: 150px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    height: 75%;
+}
+.menu a {
+    color: inherit;
+    display: block;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+.menu a:hover {
+    background-color: white;
+    color: #45015d;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.main {
+    margin-left: 300px;
+    margin-top: 80px;
+    margin-right: 80px;
+}
+hr {
+    border-color: #45015d;
+    border-radius: 8px;
+    border-width: 4px;
+    border-style: solid;
+}
+.imgs img {
+    width: 45%;
+    margin: 5px;
+    border-radius: 8px;
+    opacity: 0.7;
+}
+.imgs img:hover {
+    opacity: 1;
+}
+.imgs {
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    color: #45015d;
+    font-size: 45px;
+    margin: 10px 0px;
+}
+
+.worker {
+    padding: 8px;
+    width: 30%;
+    display: inline-block;
+}
+
+.worker img {
+    width: 100%;
+    border-radius: 8px;
+    filter: grayscale(45%);
+}
+.worker img:hover {
+    filter: grayscale(0%);
+}
+
+.worker .descr {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 5px;
+}
+ul {
+    list-style-type: none;
+}
+.tariff ul {
+    background-color: #f1f1f1;
+    padding: 0px;
+    text-align: center;
+    
+}
+.tariff li {
+    padding: 16px 0px;
+    border-bottom: 1px solid white;
+    border-radius: 8px;
+}
+.tariff .tariff-title {
+    padding: 32px 0px;
+    background-color: #45015d;
+    color: white;
+    font-size: 24px;
+    border-radius: 8px;
+}
+.price {
+    font-size: 30px;
+    font-weight: bold;
+}
+.amount {
+    opacity: 0.7;
+}
+.tariff button {
+    border-radius: 8px;
+    border: 1px solid #45015d;
+    padding: 15px 20px;
+    color: #45015d;
+    cursor: pointer;
+}
+.tariff button:hover {
+    background-color: #45015d;
+    color: white;
+}
+.pro .tariff-title {
+    background-color: #f44336;
+}
+.pro button {
+    color: #f44336;
+    border-color: #f44336;
+}
+
+.pro button:hover {
+    background-color: #f44336;
+    
+}
+.tariff{
+
+    width:450px ;
+    display: inline-block;
+    margin: 20px;
+}
+.tariffs{
+    text-align: center;
+    margin:50px 0px;
+}
+ .form label{
+     display: block;
+
+ }
+  .form input,.form button{
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0px;
+      
+  }
+  .form button{
+    background-color: #45015d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+  }
+  
+
+*{
+
+    box-sizing: border-box;
+}
+.footer{
+    padding: 30px;
+    background-color: whitesmoke;
+    text-align: right;
+    margin-top: 100px;
+}
+
+body{
+
+margin: 0px;
+}
